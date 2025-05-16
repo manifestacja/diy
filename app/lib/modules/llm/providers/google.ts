@@ -9,7 +9,7 @@ export default class GoogleProvider extends BaseProvider {
   getApiKeyLink = 'https://aistudio.google.com/app/apikey';
 
   config = {
-    apiTokenKey: 'GOOGLE_GENERATIVE_AI_API_KEY',
+    apiTokenKey: 'AIzaSyAi16ONj5PaHeyOrVySMTiIqyh1eFmFpso',
   };
 
   staticModels: ModelInfo[] = [
