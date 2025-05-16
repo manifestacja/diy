@@ -9,7 +9,7 @@ export default class OpenAIProvider extends BaseProvider {
   getApiKeyLink = 'https://platform.openai.com/api-keys';
 
   config = {
-    apiTokenKey: 'OPENAI_API_KEY',
+    apiTokenKey: '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',
   };
 
   staticModels: ModelInfo[] = [
