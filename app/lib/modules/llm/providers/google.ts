@@ -9,7 +9,7 @@ export default class GoogleProvider extends BaseProvider {
   getApiKeyLink = 'https://aistudio.google.com/app/apikey';
 
   config = {
-    apiTokenKey: 'AIzaSyAi16ONj5PaHeyOrVySMTiIqyh1eFmFpso',
+    apiTokenKey: 'GOOGLE_GENERATIVE_AI_API_KEY',
   };
 
   staticModels: ModelInfo[] = [
@@ -38,7 +38,7 @@ export default class GoogleProvider extends BaseProvider {
       providerSettings: settings,
       serverEnv: serverEnv as any,
       defaultBaseUrlKey: '',
-      defaultApiTokenKey: 'GOOGLE_GENERATIVE_AI_API_KEY',
+      defaultApiTokenKey: 'AIzaSyB57k6FEah9BxAkfAYRmboKI9xhIRxxvNE',
     });
 
     if (!apiKey) {
@@ -76,7 +76,7 @@ export default class GoogleProvider extends BaseProvider {
       providerSettings: providerSettings?.[this.name],
       serverEnv: serverEnv as any,
       defaultBaseUrlKey: '',
-      defaultApiTokenKey: 'GOOGLE_GENERATIVE_AI_API_KEY',
+      defaultApiTokenKey: 'AIzaSyB57k6FEah9BxAkfAYRmboKI9xhIRxxvNE',
     });
 
     if (!apiKey) {
